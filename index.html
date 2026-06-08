@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nguyễn Minh Trung - Cyber Security Fresher (Blue Team) portfolio and writeups.">
+  <meta name="description" content="Nguyễn Minh Trung - Cyber Security Fresher (Blue Team), focused on SOC monitoring, network security, IDS/IPS, and system hardening.">
   <title>Nguyễn Minh Trung | Cyber Security Portfolio</title>
 
   <!-- Main stylesheet for this GitHub Pages site. -->
@@ -16,6 +16,7 @@
       <a class="brand" href="#home">Trung</a>
       <div class="nav-links">
         <a href="#home">Home</a>
+        <a href="#highlights">Highlights</a>
         <a href="#projects">Projects</a>
         <a href="#labs">Labs</a>
         <a href="#writeups">Writeups</a>
@@ -30,41 +31,71 @@
       <img class="avatar" src="assets/img/avatar.jpg" alt="Portrait of Nguyễn Minh Trung">
 
       <h1>Nguyễn Minh Trung</h1>
-      <p class="role">Cyber Security Student</p>
-      <p class="location">Vietnam</p>
+      <p class="role">Cyber Security Fresher (Blue Team)</p>
+      <p class="location">Ho Chi Minh City, Vietnam</p>
 
-      <!-- Personal links: replace LinkedIn and email placeholders with your real details. -->
       <ul class="profile-links">
         <li><span>GitHub</span><a href="https://github.com/Trung-Chigusa" target="_blank" rel="noreferrer">Trung-Chigusa</a></li>
-        <li><span>Blog</span><a href="https://trung-chigusa.github.io/">Blog Home</a></li>
-        <li><span>LinkedIn</span><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn Profile</a></li>
-        <li><span>Email</span><a href="mailto:your-email@example.com">Email</a></li>
+        <li><span>Email</span><a href="mailto:nguyenminhtrungsafe@gmail.com">nguyenminhtrungsafe@gmail.com</a></li>
+        <li><span>Blog</span><a href="https://trung-chigusa.github.io/">Security Notes</a></li>
       </ul>
     </aside>
 
     <!-- Right content column: this is the main academic-homepage style content. -->
     <section class="content-column" aria-label="Portfolio content">
       <section class="content-section intro-section">
-        <h2>Welcome</h2>
-        <p>
-          I am <strong>Nguyễn Minh Trung</strong>, a cyber security student in Vietnam.
-          My current interests include defensive security, network monitoring, firewall
-          hardening, IDS rule testing, and practical blue team lab documentation.
+        <h2>Cyber Security Fresher (Blue Team)</h2>
+        <p class="intro-lead">
+          I am <strong>Nguyễn Minh Trung</strong>, a Cyber Security Fresher focused on
+          SOC monitoring, network security, and practical defensive operations.
         </p>
         <p>
-          This page collects my security projects, lab notes, and writeups around
-          pfSense, Suricata, OpenWrt, reverse proxy security, rate limiting, and
-          web server testing workflows.
+          My work centers on turning security events into clear evidence: collecting
+          firewall, IDS, Windows, Linux, and application logs; triaging alerts; correlating
+          timestamps, IPs, ports, and protocols; and documenting findings so response work
+          becomes faster and cleaner.
         </p>
+        <p>
+          I am looking for internship or entry-level opportunities where I can contribute
+          to log analysis, alert triage, incident investigation, IDS/IPS tuning, and system
+          hardening. My long-term goal is to grow into a Security Engineer specializing in
+          SOC operations, Blue Teaming, networking, and systems.
+        </p>
+
+        <div class="skill-strip" aria-label="Core security focus">
+          <span>SOC Alert Triage</span>
+          <span>Log Analysis</span>
+          <span>IDS/IPS Tuning</span>
+          <span>Wazuh</span>
+          <span>pfSense</span>
+          <span>Suricata</span>
+          <span>Wireshark</span>
+          <span>System Hardening</span>
+        </div>
+
+        <div class="focus-grid">
+          <article class="focus-item">
+            <h3>SOC / Blue Team</h3>
+            <p>Alert review, event correlation, incident timelines, false-positive reduction, and basic response workflow.</p>
+          </article>
+          <article class="focus-item">
+            <h3>Network Security</h3>
+            <p>TCP/IP, subnetting, DNS/DHCP, VLANs, NAT, firewall rules, traffic analysis, and secure segmentation.</p>
+          </article>
+          <article class="focus-item">
+            <h3>System & Lab Ops</h3>
+            <p>Windows/Linux administration, Proxmox and VMware labs, logging baselines, and repeatable hardening checklists.</p>
+          </article>
+        </div>
       </section>
 
-      <!-- Selected News: keep this short and update dates when you publish new work. -->
-      <section class="content-section">
-        <h2>Selected News</h2>
+      <section id="highlights" class="content-section">
+        <h2>Highlights</h2>
         <ol class="news-list">
-          <li><span class="date">2026</span> Started a personal cyber security blog for labs, tools, and writeups.</li>
-          <li><span class="date">2026</span> Building a home lab focused on pfSense, Suricata IDS, and OpenWrt firewall testing.</li>
-          <li><span class="date">2026</span> Documenting reverse proxy, load balancing, and rate limiting experiments for safer web services.</li>
+          <li><span class="date">2025</span> Top 3 - HUTECH Information Security Competition 2025.</li>
+          <li><span class="date">2025</span> Top 4 - Digital Dragons CTF 2025 and Finalist - ASEAN Student Contest on Information Security 2025.</li>
+          <li><span class="date">2024</span> Finalist - ASEAN Student Contest on Information Security 2024 and Digital Dragons CTF 2024.</li>
+          <li><span class="date">2023</span> Second Place - HUTECH Student CTF 2023.</li>
         </ol>
       </section>
 
@@ -73,18 +104,18 @@
         <h2>Projects</h2>
         <div class="entry-list">
           <article class="entry">
-            <h3>pfSense Security</h3>
-            <p>Firewall policy design, NAT review, VLAN segmentation, and baseline hardening for a small lab network.</p>
+            <h3>Wazuh SOC Monitoring Lab</h3>
+            <p>Deploying Wazuh Manager, Dashboard, and Agents; reviewing alerts; grouping events by host, user, and attack pattern; and writing practical triage notes.</p>
           </article>
 
           <article class="entry">
-            <h3>Network Monitoring and Alerting Toolkit</h3>
-            <p>A practical toolkit for collecting logs, watching traffic patterns, and turning suspicious events into actionable alerts.</p>
+            <h3>pfSense and Suricata Defensive Lab</h3>
+            <p>Building segmented LAN/DMZ environments, configuring firewall policy, monitoring traffic, and tuning IDS rules with whitelisting and thresholding.</p>
           </article>
 
           <article class="entry">
-            <h3>Web Server Testing Toolkit</h3>
-            <p>Checklists and scripts for security headers, TLS, cookie flags, CORS behavior, exposed files, and rate-limit checks.</p>
+            <h3>Web and Network Security Toolkit</h3>
+            <p>Checklists and small scripts for security headers, TLS, cookie flags, CORS behavior, exposed files, rate limits, and service hardening.</p>
           </article>
         </div>
       </section>
@@ -94,18 +125,18 @@
         <h2>Labs</h2>
         <div class="entry-list">
           <article class="entry">
-            <h3>Suricata IDS Rule Testing</h3>
-            <p>Testing custom signatures, validating alerts, and tuning noisy rules in a controlled network environment.</p>
+            <h3>Log Analysis and Alert Triage</h3>
+            <p>Analyzing firewall, IDS, Windows, Linux, and application logs to assess severity, identify indicators, and separate true positives from noise.</p>
           </article>
 
           <article class="entry">
-            <h3>OpenWrt Firewall</h3>
-            <p>Experimenting with router firewall rules, DNS filtering, network isolation, and lightweight monitoring.</p>
+            <h3>Network Traffic Analysis</h3>
+            <p>Using Wireshark and tcpdump to inspect packets, filter traffic by IP, port, protocol, and flags, and extract evidence from PCAP files.</p>
           </article>
 
           <article class="entry">
-            <h3>Reverse Proxy, Load Balancing, Rate Limiting</h3>
-            <p>Studying Nginx reverse proxy behavior, upstream balancing, request throttling, and abuse-resistant defaults.</p>
+            <h3>Windows and Linux Hardening</h3>
+            <p>Practicing baseline configuration for accounts, services, logs, firewall rules, SSH, shared folders, DNS/DHCP, and exposed web services.</p>
           </article>
         </div>
       </section>
@@ -115,13 +146,18 @@
         <h2>Writeups</h2>
         <div class="entry-list">
           <article class="entry">
-            <h3>Purple Team / Blue Team Writeups</h3>
-            <p>Notes on detection logic, defensive response, attack simulation in lab scope, and lessons learned from each exercise.</p>
+            <h3>Detection Engineering Notes</h3>
+            <p>Short writeups on SSH/RDP brute force, port scanning, suspicious DNS activity, and common web attack patterns observed in lab environments.</p>
+          </article>
+
+          <article class="entry">
+            <h3>CTF and Forensics Writeups</h3>
+            <p>Lessons from web security, forensics, and networking challenges, with emphasis on evidence, reasoning, and repeatable investigation steps.</p>
           </article>
 
           <article class="entry">
             <h3>Firewall and IDS Notes</h3>
-            <p>Short explanations of firewall rules, IDS alerts, false positives, and how to improve visibility without adding noise.</p>
+            <p>Explanations of firewall rules, IDS alerts, false positives, and ways to improve visibility without adding unnecessary noise.</p>
           </article>
         </div>
       </section>
@@ -133,7 +169,7 @@
           For projects, lab notes, or collaboration, you can find me on
           <a href="https://github.com/Trung-Chigusa" target="_blank" rel="noreferrer">GitHub</a>
           or send an email to
-          <a href="mailto:your-email@example.com">your-email@example.com</a>.
+          <a href="mailto:nguyenminhtrungsafe@gmail.com">nguyenminhtrungsafe@gmail.com</a>.
         </p>
       </section>
     </section>
